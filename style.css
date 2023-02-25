@@ -1,0 +1,28 @@
+.container{
+height: 100vh;
+width: 100vw;
+background-color: #666666;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.text{
+    animation: move-color 3s linear infinite alternate ;
+    font-size: 10vmax;
+    font-family: Roboto, Arial, sans-serif;
+}
+@keyframes move-color{
+   0%{
+    color: #000000;
+   }
+   50%{
+    color:#412727 ; 
+   }
+   100%{
+    color: #fa0909;
+   }
+    
+    
+    
+}
